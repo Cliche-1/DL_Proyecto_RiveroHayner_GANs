@@ -1,0 +1,9 @@
+/.lightning_studio
+.cursor-server
+.vscode-server
+.windsurf-server
+/.vscode
+/.idea
+/data/
+/processed_dataset
+/notebooks/checkpoints/
