@@ -1,0 +1,4 @@
+Configuration,Gen Loss Variance,Disc Loss Variance,Gen Convergence Rate,Mode Collapse Risk,Collapse Ratio,Gen Oscillations,Loss Improvement,Final Gen Loss,Final Val Loss
+Standard,0.489165,0.001230,0.191971,Low,0.000,0.1472,11.0778,15.3113,22.9589
+Perceptual,3.887661,0.007598,0.503317,Low,0.000,1.0824,29.9832,85.0626,95.8481
+Regularized,0.513850,0.001029,0.199650,Low,0.000,0.1728,11.2962,15.1144,22.7391
