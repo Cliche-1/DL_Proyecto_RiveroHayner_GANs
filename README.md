@@ -33,18 +33,18 @@ Una comparación de tres configuraciones diferentes de funciones de pérdida par
 
 ```
 ├── notebooks/
-│   ├── Proyecto_GANs.ipynb         # Notebook dividido en secciones
+│   ├── Proyecto_GANs.ipynb          # Notebook principal dividido en secciones
 │   ├── results/
-│   ├── generated_samples/          # Imágenes de muestra generadas durante el entrenamiento
-│   │   ├── standard/               # Configuración A
-│   │   ├── perceptual/             # Configuración B
-│   │   └── regularized/            # Configuración C             
-│   ├── summary/
-│   │   ├── img_reports/            # Gráficos
-│   │   └── csv/                    # Tablas
-│   └── checkpoints/                # Checkpoints de modelos(Cada 10 periodos)
-├── README.md       
-└── requirements.txt                    
+│   │   ├── generated_samples/       # Imágenes generadas durante el entrenamiento
+│   │   │   ├── standard/            # Configuración A
+│   │   │   ├── perceptual/          # Configuración B
+│   │   │   └── regularized/         # Configuración C
+│   │   └── summary/
+│   │       ├── img_reports/         # Gráficos y visualizaciones
+│   │       └── csv/                 # Tablas y métricas en formato CSV
+│   └── checkpoints/                 # Modelos guardados (cada 10 epochs)
+├── README.md
+└── requirements.txt              
 ```
 
 ## Requisitos
