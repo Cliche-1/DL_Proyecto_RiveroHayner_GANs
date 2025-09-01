@@ -1,0 +1,75 @@
+{
+  "best_configuration": "standard",
+  "configuration_scores": {
+    "standard": 0.6301551342336715,
+    "perceptual": 0.5136663015027774,
+    "regularized": 0.6150835068739905
+  },
+  "evaluation_metrics": {
+    "standard": {
+      "mse": "0.039045047",
+      "mae": "0.107715674",
+      "psnr": 14.709448939047169,
+      "ssim": "0.6324115",
+      "fid": 196.2587189654981,
+      "is_mean": "2.3705974",
+      "is_std": "0.35037154",
+      "real_accuracy": 0.2233729362487793,
+      "fake_accuracy": 0.827892541885376,
+      "overall_accuracy": 0.5256327390670776,
+      "avg_inference_time_ms": 79.10471439361572,
+      "peak_memory_mb": 0,
+      "throughput_fps": 12.641471594526188,
+      "results_path": "./results/summary/csv/standard_evaluation_results.csv"
+    },
+    "perceptual": {
+      "mse": "0.042412072",
+      "mae": "0.10179964",
+      "psnr": 14.454000020607179,
+      "ssim": "0.6550807",
+      "fid": 159.88536948810247,
+      "is_mean": "2.3962924",
+      "is_std": "0.3434192",
+      "real_accuracy": 0.28724172711372375,
+      "fake_accuracy": 0.8806301355361938,
+      "overall_accuracy": 0.5839359313249588,
+      "avg_inference_time_ms": 76.9778060913086,
+      "peak_memory_mb": 0,
+      "throughput_fps": 12.990757346524429,
+      "results_path": "./results/summary/csv/perceptual_evaluation_results.csv"
+    },
+    "regularized": {
+      "mse": "0.04260584",
+      "mae": "0.103285894",
+      "psnr": 14.480363498537098,
+      "ssim": "0.6438002",
+      "fid": 195.4424739423991,
+      "is_mean": "2.5142176",
+      "is_std": "0.35847256",
+      "real_accuracy": 0.07378615438938141,
+      "fake_accuracy": 0.9808109402656555,
+      "overall_accuracy": 0.5272985473275185,
+      "avg_inference_time_ms": 106.39714241027832,
+      "peak_memory_mb": 0,
+      "throughput_fps": 9.398748663229105,
+      "results_path": "./results/summary/csv/regularized_evaluation_results.csv"
+    }
+  },
+  "computational_metrics": {
+    "standard": {
+      "avg_inference_time_ms": 135.11841297149658,
+      "peak_memory_mb": 0,
+      "throughput_fps": 7.400915819007965
+    },
+    "perceptual": {
+      "avg_inference_time_ms": 119.00010108947754,
+      "peak_memory_mb": 0,
+      "throughput_fps": 8.40335420596062
+    },
+    "regularized": {
+      "avg_inference_time_ms": 147.82671928405762,
+      "peak_memory_mb": 0,
+      "throughput_fps": 6.764676946380999
+    }
+  }
+}
